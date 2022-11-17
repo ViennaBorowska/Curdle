@@ -72,16 +72,19 @@ function registerKeyboardEvents() {
           state.currentRow++;
           state.currentCol = 0;
         } else {
-          alert("Not a valid word!");
+          alert("Not a valid word.");
         }
       }
     }
     if (key === "Backspace") {
+      removeLetter();
     }
     if (isLetter(key)) {
+      addLetter(key);
     }
+
+    updateGrid();
   };
-  updateGrid();
 }
 
 function getCurrentWord() {
@@ -139,6 +142,8 @@ function startUp() {
   drawGrid(game);
 
   registerKeyboardEvents();
+
+  console.log(state.secret);
 }
 
 startUp();

@@ -37,14 +37,14 @@ body {
   font-size: 2.4rem;
 }
 
-.box-empty {
+.box.empty {
   background-color: var(--empty);
 }
 
-.box-wrong {
+.box.wrong {
   background-color: var(--wrong);
 }
 
-.box-right {
+.box.right {
   background-color: var(--right);
 }
