@@ -27,7 +27,7 @@ body {
 .box {
   width: 60px;
   height: 60px;
-  border: 2pz solid var(--empty);
+  border: 2px solid var(--empty);
   margin: 4px;
   color: white;
   text-transform: uppercase;
