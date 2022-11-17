@@ -88,7 +88,9 @@ function getCurrentWord() {
   return state.grid[state.currentRow].reduce((prev, curr) => prev + curr);
 }
 
-function isWordValid(word) {}
+function isWordValid(word) {
+  return dictionary.includes(word);
+}
 
 function startUp() {
   const game = document.getElementById("game");
