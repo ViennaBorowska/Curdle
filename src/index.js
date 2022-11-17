@@ -122,6 +122,18 @@ function isLetter(key) {
   return key.length === 1 && key.match(/[a-z]/i);
 }
 
+function addLetter(letter) {
+  if (state.currentCol === 5) return;
+  state.grid[state.currentRow][state.currentCol] = letter;
+  state.currentCol++;
+}
+
+function removeLetter() {
+  if (state.currentCol === 0) return;
+  state.grid[state.currentRow][state.currentCol - 1] = "";
+  state.currentCol--;
+}
+
 function startUp() {
   const game = document.getElementById("game");
   drawGrid(game);
