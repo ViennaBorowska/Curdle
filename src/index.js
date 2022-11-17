@@ -1,4 +1,27 @@
+const dictionary = [
+  "gorge",
+  "wheel",
+  "gouda",
+  "milky",
+  "melty",
+  "cheese",
+  "comte",
+  "dairy",
+  "taste",
+  "curds",
+  "slice",
+  "grate",
+  "herve",
+  "sharp",
+  "swiss",
+  "colby",
+  "nacho",
+  "cream",
+  "spray",
+];
+
 const state = {
+  secret: dictionary[Math.floor(Math.random() * dictionary.length)],
   grid: Array(6)
     .fill()
     .map(() => Array(5).fill("")),
