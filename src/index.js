@@ -61,6 +61,12 @@ function registerKeyboardEvents() {
   updateGrid();
 }
 
+function getCurrentWord() {
+  return state.grid[state.currentRow].reduce((prev, curr) => prev + curr);
+}
+
+function isWordValid(word) {}
+
 function startUp() {
   const game = document.getElementById("game");
   drawGrid(game);
