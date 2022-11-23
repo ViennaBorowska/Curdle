@@ -1,24 +1,6 @@
-const dictionary = [
-  "gorge",
-  "wheel",
-  "gouda",
-  "milky",
-  "melty",
-  "cheese",
-  "comte",
-  "dairy",
-  "taste",
-  "curds",
-  "slice",
-  "grate",
-  "herve",
-  "sharp",
-  "swiss",
-  "colby",
-  "nacho",
-  "cream",
-  "spray",
-];
+import { dictionary } from "./dictionary.js";
+
+console.log(dictionary);
 
 const state = {
   secret: dictionary[Math.floor(Math.random() * dictionary.length)],
