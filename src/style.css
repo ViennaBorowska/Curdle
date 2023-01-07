@@ -18,6 +18,22 @@ body {
   height: 600px;
 }
 
+.title {
+  color: yellow;
+  font-family: "Rubik Bubbles", cursive;
+  text-align: center;
+  font-size: 7vmin;
+  transition: ease-in 2s;
+  margin: 0;
+}
+
+.tagline {
+  margin: 0;
+  color: #b59f3b;
+  text-align: center;
+  transition-delay: 3s;
+}
+
 .grid {
   display: grid;
   grid-template-rows: repeat(6, auto);

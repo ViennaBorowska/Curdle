@@ -18,4 +18,6 @@ export const dictionary = [
   "nacho",
   "cream",
   "spray",
+  "curds",
+  "veins",
 ];
