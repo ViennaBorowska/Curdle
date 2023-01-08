@@ -21,6 +21,8 @@ Firstly, start off by cloning the repo locally. Run the index.html file with a l
 
 ## Usage
 
+You can play the game online <a href="https://viennaborowska.github.io/Curdle/" target="_blank">here</a>
+
 The game is played on one screen. Similar to other popular word guessing games, a player is faced with a grid of tiles and prompted to make their guess. Words not in the dairy dictionary will not be accepted. Guessed letters in the right place are marked green, guessed letters in the wrong place are marked orange. There is functionality to deal with duplicate letter occurances. Players are congratulated when they guess succesfully, and are comiserated and informed of the word when they do not.
 
 <img src="/public/curd2.JPG">
